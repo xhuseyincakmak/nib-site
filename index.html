@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nib Support</title>
+<style>
+  :root { --text: #1d1d1f; --muted: #6e6e73; --bg: #ffffff; --accent: #b8860b; }
+  @media (prefers-color-scheme: dark) { :root { --text: #f5f5f7; --muted: #a1a1a6; --bg: #181210; --accent: #f0c050; } }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 32px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  .updated { color: var(--muted); margin: 0 0 32px; }
+  a { color: var(--accent); }
+  li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Nib Support</h1>
+  <p class="updated">Select a word on your Mac. See it in Turkish. Keep it.</p>
+
+  <p>Questions, bugs or ideas: <a href="mailto:xhuseyincakmak@gmail.com">xhuseyincakmak@gmail.com</a></p>
+
+  <h2>The yellow button doesn't appear</h2>
+  <ul>
+    <li>Check that capture is on: click the nib in the menu bar; <strong>Capture selections</strong> should be switched on.</li>
+    <li>Check Accessibility: System Settings → Privacy &amp; Security → Accessibility, with Nib switched on. If Nib isn't listed, open <strong>Set Up…</strong> from Nib's menu and drag the Nib icon into the list.</li>
+  </ul>
+
+  <h2>No translation appears</h2>
+  <p>Nib uses Apple's on-device translation, which needs the English–Turkish language pack. Open <strong>Set Up…</strong> from Nib's menu and download it, or add Turkish in System Settings → General → Language &amp; Region → Translation Languages.</p>
+
+  <h2>No explanations</h2>
+  <p>Plain-English explanations use Apple Intelligence, so they need a Mac that supports it, with Apple Intelligence switched on in System Settings. Without it, Nib still translates and shows definitions.</p>
+
+  <h2>Where is Nib?</h2>
+  <p>Nib lives in the menu bar (a pen-nib icon) and has no Dock icon. Its library opens from the menu bar icon → Open Library.</p>
+
+  <h2>Privacy</h2>
+  <p>Nib collects no data. Everything runs on your Mac. Read the <a href="privacy/">privacy policy</a>.</p>
+</main>
+</body>
+</html>
