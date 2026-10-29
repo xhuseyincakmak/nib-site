@@ -20,7 +20,7 @@
 <body>
 <main>
   <h1>Nib Privacy Policy</h1>
-  <p class="updated">Last updated: 9 October 2026</p>
+  <p class="updated">Last updated: 29 October 2026</p>
 
   <p><strong>Nib collects no data.</strong> It has no account, no server and no
   analytics, and it doesn't send anything you read, select or save anywhere.</p>
@@ -33,12 +33,21 @@
     <li><strong>Your library</strong> (saved words, translations, notes and decks) is stored in a file on your Mac. Nib has no copy of it.</li>
   </ul>
 
-  <h2>Accessibility permission</h2>
-  <p>Nib asks for Accessibility permission for one purpose: when you click its
-  button after selecting text, it sends the Copy command to the app you're
-  reading in, reads the copied text, and puts your clipboard back exactly as it
-  was. Nib copies nothing until you click its button, and macOS never allows
-  copying from password fields.</p>
+  <h2>How Nib sees the text you select</h2>
+  <p>Nib never reads other apps' text in the background. It gets the text you
+  select in one of two ways, both only when you ask:</p>
+  <ul>
+    <li><strong>Its icon.</strong> When you double-click or select text, Nib's icon
+    appears. This uses macOS <em>Input Monitoring</em> to notice mouse clicks only;
+    Nib never sees what you type. When you click the icon, Nib uses
+    <em>Screen Recording</em> to take a picture of that one spot on screen and read
+    the selected words with Apple's on-device text recognition. The picture is
+    used for that lookup only, stays in memory, and is never saved or sent.
+    Nothing is captured until you click the icon.</li>
+    <li><strong>The keyboard shortcut</strong> (Shift-Command-K, or Services →
+    Look Up in Nib). macOS hands Nib the selected text directly; no permission
+    is needed.</li>
+  </ul>
 
   <h2>Notifications</h2>
   <p>If you turn on word reminders, Nib shows your own saved words as
